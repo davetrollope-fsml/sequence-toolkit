@@ -1,0 +1,23 @@
+case "$(uname)" in
+CYGWIN*)
+	export PATH=/home/DaveAndDiane/sequence_toolkit/lib:$PATH
+	;;
+*)
+	MONGOOSEDIR=/home/dave/mongoose/mongoose
+	if [ "$1" == "rls" ]; then
+		export LD_LIBRARY_PATH=/home/dave/sequence_toolkit/rls/stk/sequence_toolkit/lib:$MONGOOSEDIR
+	else
+		export LD_LIBRARY_PATH=/home/dave/stk/sequence_toolkit/lib:$MONGOOSEDIR
+		export DYLD_LIBRARY_PATH=$HOME/stk/sequence_toolkit/lib
+		case "$(uname)" in
+		Darwin)
+			export PYTHONPATH=$HOME/stk/sequence_toolkit/swig/site-packages/
+			;;
+		Linux)
+			export PYTHONPATH=$HOME/stk/sequence_toolkit/swig/site-packages/
+			;;
+		esac
+	fi
+	;;
+esac
+
