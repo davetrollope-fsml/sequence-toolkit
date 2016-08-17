@@ -13,3 +13,5 @@ target_link_libraries(stknamed stk)
 install (TARGETS stkd DESTINATION daemons)
 install (TARGETS stkhttpd DESTINATION daemons)
 install (TARGETS stknamed DESTINATION daemons)
+
+file(COPY ${PROJECT_SOURCE_DIR}/daemons/stkd.cfg DESTINATION ${PROJECT_BINARY_DIR}/daemons)
