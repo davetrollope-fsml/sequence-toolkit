@@ -53,3 +53,4 @@ install (TARGETS test_types DESTINATION test_programs)
 install (TARGETS timer_test DESTINATION test_programs)
 install (TARGETS udp_data_flow_test DESTINATION test_programs)
 
+file(COPY ${PROJECT_SOURCE_DIR}/test_programs/test.make DESTINATION test_programs)
