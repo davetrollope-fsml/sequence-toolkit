@@ -14,4 +14,9 @@ install (TARGETS stkd DESTINATION daemons)
 install (TARGETS stkhttpd DESTINATION daemons)
 install (TARGETS stknamed DESTINATION daemons)
 
+file(GLOB PARTIALS "*.phtml")
 file(COPY ${PROJECT_SOURCE_DIR}/daemons/stkd.cfg DESTINATION ${PROJECT_BINARY_DIR}/daemons)
+file(COPY ${PARTIALS} DESTINATION ${PROJECT_BINARY_DIR}/daemons)
+file(COPY ${PROJECT_SOURCE_DIR}/daemons/images DESTINATION ${PROJECT_BINARY_DIR}/daemons)
+file(COPY ${PROJECT_SOURCE_DIR}/daemons/js DESTINATION ${PROJECT_BINARY_DIR}/daemons)
+
