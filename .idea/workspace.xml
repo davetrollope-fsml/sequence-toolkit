@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="sequence_toolkit" targetName="publish" />
+      <config projectName="sequence_toolkit" targetName="name_service_tests" />
+      <config projectName="sequence_toolkit" targetName="monitored_service" />
+      <config projectName="sequence_toolkit" targetName="simple_server" />
+      <config projectName="sequence_toolkit" targetName="create_env_test" />
+      <config projectName="sequence_toolkit" targetName="service_state_names" />
+      <config projectName="sequence_toolkit" targetName="create_service_test" />
+      <config projectName="sequence_toolkit" targetName="test_types" />
+      <config projectName="sequence_toolkit" targetName="subscribe" />
+      <config projectName="sequence_toolkit" targetName="install_sequence_toolkit" />
+      <config projectName="sequence_toolkit" targetName="sequence_iterator_test" />
+      <config projectName="sequence_toolkit" targetName="test.make" />
+      <config projectName="sequence_toolkit" targetName="raw_multicast_bridge" />
+      <config projectName="sequence_toolkit" targetName="simple_name_registration" />
+      <config projectName="sequence_toolkit" targetName="sequence_toolkit" />
+      <config projectName="sequence_toolkit" targetName="simple_name_lookup" />
+      <config projectName="sequence_toolkit" targetName="stknamed" />
+      <config projectName="sequence_toolkit" targetName="create_lite_pkg_test" />
+      <config projectName="sequence_toolkit" targetName="rawudp_data_flow_test" />
+      <config projectName="sequence_toolkit" targetName="timer_test" />
+      <config projectName="sequence_toolkit" targetName="mongoose" />
+      <config projectName="sequence_toolkit" targetName="stkhttpd" />
+      <config projectName="sequence_toolkit" targetName="options_tests" />
+      <config projectName="sequence_toolkit" targetName="check_service_group_state_test" />
+      <config projectName="sequence_toolkit" targetName="tcp_data_flow_test" />
+      <config projectName="sequence_toolkit" targetName="make" />
+      <config projectName="sequence_toolkit" targetName="test_sequence_toolkit" />
+      <config projectName="sequence_toolkit" targetName="sequence_tests" />
+      <config projectName="sequence_toolkit" targetName="throughput_test" />
+      <config projectName="sequence_toolkit" targetName="udp_data_flow_test" />
+      <config projectName="sequence_toolkit" targetName="stkd" />
+      <config projectName="sequence_toolkit" targetName="alt_install" />
+      <config projectName="sequence_toolkit" targetName="create_sequence_test" />
+      <config projectName="sequence_toolkit" targetName="sync_test" />
+      <config projectName="sequence_toolkit" targetName="simple_client" />
+      <config projectName="sequence_toolkit" targetName="myinstall" />
+      <config projectName="sequence_toolkit" targetName="stk" />
+      <config projectName="sequence_toolkit" targetName="service_group_auto_svc_test" />
+      <config projectName="sequence_toolkit" targetName="create_service_group_test" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
+    <ADDITIONAL_GENERATION_ENVIRONMENT>
+      <envs />
+    </ADDITIONAL_GENERATION_ENVIRONMENT>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2175024d-aab7-40c1-9f84-2de9e1d2fd73" name="Default" comment="" />
+    <ignored path="sequence_toolkit.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="sequence_toolkit" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.make" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_programs/test.make">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="330">
+                <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unit_tests/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_programs/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="55" column="41" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="104" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/daemons/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="91" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service_group_auto_svc_test.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_programs/service_group_auto_svc_test.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/stk_mixed_connection.c" />
+        <option value="$PROJECT_DIR$/src/stk_data_flow.c" />
+        <option value="$PROJECT_DIR$/include/stk_sync.h" />
+        <option value="$PROJECT_DIR$/src/stk_udp_listener.c" />
+        <option value="$PROJECT_DIR$/include/stk_sync_api.h" />
+        <option value="$PROJECT_DIR$/src/stk_sequence.c" />
+        <option value="$PROJECT_DIR$/src/stk_rawudp.c" />
+        <option value="$PROJECT_DIR$/src/stk_service_group.c" />
+        <option value="$PROJECT_DIR$/src/stk_tcp_client.c" />
+        <option value="$PROJECT_DIR$/test_programs/name_service_tests.c" />
+        <option value="$PROJECT_DIR$/src/stk_name_service.c" />
+        <option value="$PROJECT_DIR$/daemons/stknamed.c" />
+        <option value="$PROJECT_DIR$/src/stk_sync.c" />
+        <option value="$PROJECT_DIR$/src/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/unit_tests/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/examples/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/test_programs/test.make" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/test_programs/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/daemons/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/test_programs/service_group_auto_svc_test.c" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="193" />
+    <option name="y" value="70" />
+    <option name="width" value="1427" />
+    <option name="height" value="821" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sequence_toolkit" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sequence_toolkit" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sequence_toolkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sequence_toolkit" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sequence_toolkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_programs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sequence_toolkit" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sequence_toolkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="daemons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test_programs" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mongoose" />
+      <recent name="$PROJECT_DIR$/daemons" />
+      <recent name="$PROJECT_DIR$/test_programs" />
+      <recent name="$PROJECT_DIR$/unit_tests" />
+      <recent name="$PROJECT_DIR$/examples" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Build All">
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="sequence_toolkit" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="sequence_toolkit" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sequence_toolkit" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sequence_toolkit" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sequence_toolkit" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sequence_toolkit" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sequence_toolkit" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sequence_toolkit" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sequence_toolkit" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="simple_client" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_sequence_toolkit" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="test_sequence_toolkit" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="stk" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="stk" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="simple_client" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="simple_client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="simple_client">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="monitored_service" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="monitored_service" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="monitored_service">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="publish" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="publish" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="publish">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="raw_multicast_bridge" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="raw_multicast_bridge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="raw_multicast_bridge">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="simple_name_lookup" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="simple_name_lookup" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="simple_name_lookup">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="simple_name_registration" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="simple_name_registration" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="simple_name_registration">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="simple_server" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="simple_server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="simple_server">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="subscribe" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="subscribe" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="subscribe">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="throughput_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="throughput_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="throughput_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="sync_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="sync_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="sync_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="check_service_group_state_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="check_service_group_state_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="check_service_group_state_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="create_env_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="create_env_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="create_env_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="create_lite_pkg_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="create_lite_pkg_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="create_lite_pkg_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="create_sequence_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="create_sequence_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="create_sequence_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="create_service_group_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="create_service_group_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="create_service_group_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="create_service_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="create_service_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="create_service_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="name_service_tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="name_service_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="name_service_tests">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="options_tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="options_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="options_tests">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="rawudp_data_flow_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="rawudp_data_flow_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="rawudp_data_flow_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="sequence_iterator_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="sequence_iterator_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="sequence_iterator_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="sequence_tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="sequence_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="sequence_tests">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="service_group_auto_svc_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="service_group_auto_svc_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="service_group_auto_svc_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="service_state_names" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="service_state_names" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="service_state_names">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="tcp_data_flow_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="tcp_data_flow_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="tcp_data_flow_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_types" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="test_types" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="test_types">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="timer_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="timer_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="timer_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="udp_data_flow_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="udp_data_flow_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="udp_data_flow_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="stkd" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="stkd" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="stkd">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="stknamed" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-T 127.0.0.1:20002" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="stknamed" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="stknamed">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="stkhttpd" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-T 127.0.0.1:20001" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="stkhttpd" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="stkhttpd">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="mongoose" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="mongoose" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test.make" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="test.make" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <list size="35">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.test_sequence_toolkit" />
+      <item index="2" class="java.lang.String" itemvalue="Application.stk" />
+      <item index="3" class="java.lang.String" itemvalue="Application.simple_client" />
+      <item index="4" class="java.lang.String" itemvalue="Application.monitored_service" />
+      <item index="5" class="java.lang.String" itemvalue="Application.publish" />
+      <item index="6" class="java.lang.String" itemvalue="Application.raw_multicast_bridge" />
+      <item index="7" class="java.lang.String" itemvalue="Application.simple_name_lookup" />
+      <item index="8" class="java.lang.String" itemvalue="Application.simple_name_registration" />
+      <item index="9" class="java.lang.String" itemvalue="Application.simple_server" />
+      <item index="10" class="java.lang.String" itemvalue="Application.subscribe" />
+      <item index="11" class="java.lang.String" itemvalue="Application.throughput_test" />
+      <item index="12" class="java.lang.String" itemvalue="Application.sync_test" />
+      <item index="13" class="java.lang.String" itemvalue="Application.check_service_group_state_test" />
+      <item index="14" class="java.lang.String" itemvalue="Application.create_env_test" />
+      <item index="15" class="java.lang.String" itemvalue="Application.create_lite_pkg_test" />
+      <item index="16" class="java.lang.String" itemvalue="Application.create_sequence_test" />
+      <item index="17" class="java.lang.String" itemvalue="Application.create_service_group_test" />
+      <item index="18" class="java.lang.String" itemvalue="Application.create_service_test" />
+      <item index="19" class="java.lang.String" itemvalue="Application.name_service_tests" />
+      <item index="20" class="java.lang.String" itemvalue="Application.options_tests" />
+      <item index="21" class="java.lang.String" itemvalue="Application.rawudp_data_flow_test" />
+      <item index="22" class="java.lang.String" itemvalue="Application.sequence_iterator_test" />
+      <item index="23" class="java.lang.String" itemvalue="Application.sequence_tests" />
+      <item index="24" class="java.lang.String" itemvalue="Application.service_group_auto_svc_test" />
+      <item index="25" class="java.lang.String" itemvalue="Application.service_state_names" />
+      <item index="26" class="java.lang.String" itemvalue="Application.tcp_data_flow_test" />
+      <item index="27" class="java.lang.String" itemvalue="Application.test_types" />
+      <item index="28" class="java.lang.String" itemvalue="Application.timer_test" />
+      <item index="29" class="java.lang.String" itemvalue="Application.udp_data_flow_test" />
+      <item index="30" class="java.lang.String" itemvalue="Application.stkd" />
+      <item index="31" class="java.lang.String" itemvalue="Application.stknamed" />
+      <item index="32" class="java.lang.String" itemvalue="Application.stkhttpd" />
+      <item index="33" class="java.lang.String" itemvalue="Application.mongoose" />
+      <item index="34" class="java.lang.String" itemvalue="Application.test.make" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2175024d-aab7-40c1-9f84-2de9e1d2fd73" name="Default" comment="" />
+      <created>1471115025100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1471115025100</updated>
+      <workItem from="1471115026415" duration="248000" />
+      <workItem from="1471115331334" duration="27290000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="27538000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="193" y="70" width="1427" height="821" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16002844" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5089163" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4095563" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24952015" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965687" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39950982" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/stk_assert_log.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/stk_internal.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/stk_mixed_connection.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/stk_data_flow.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <marker date="1471118953000" expanded="true" signature="740:1184" ph="{...}" />
+            <marker date="1471118953000" expanded="true" signature="1231:1406" ph="{...}" />
+            <marker date="1471118953000" expanded="true" signature="1456:1705" ph="{...}" />
+            <marker date="1471118953000" expanded="true" signature="1760:1936" ph="{...}" />
+            <marker date="1471118953000" expanded="true" signature="1983:2147" ph="{...}" />
+            <marker date="1471118953000" expanded="true" signature="2209:2378" ph="{...}" />
+            <marker date="1471118953000" expanded="true" signature="2426:2588" ph="{...}" />
+            <marker date="1471118953000" expanded="true" signature="2649:2811" ph="{...}" />
+            <marker date="1471118953000" expanded="true" signature="2868:3039" ph="{...}" />
+            <marker date="1471118953000" expanded="true" signature="3096:3261" ph="{...}" />
+            <marker date="1471118953000" expanded="true" signature="3314:3639" ph="{...}" />
+            <marker date="1471118953000" expanded="true" signature="3736:3993" ph="{...}" />
+            <marker date="1471118953000" expanded="true" signature="4097:4338" ph="{...}" />
+            <marker date="1471118953000" expanded="true" signature="4437:4698" ph="{...}" />
+            <marker date="1471118953000" expanded="true" signature="4803:5235" ph="{...}" />
+            <marker date="1471118953000" expanded="true" signature="5287:5523" ph="{...}" />
+            <marker date="1471118953000" expanded="true" signature="5577:5862" ph="{...}" />
+            <marker date="1471118953000" expanded="true" signature="5966:6407" ph="{...}" />
+            <marker date="1471118953000" expanded="true" signature="6518:6831" ph="{...}" />
+            <marker date="1471118953000" expanded="true" signature="7274:7385" ph="{...}" />
+            <marker date="1471118953000" expanded="true" signature="7637:9031" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/stk_tcp_client.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4835">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/stk_service_group.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#34#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/stk_rawudp.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#30#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/stk_sequence.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/stk_sync_api.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="e#160#181#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/stk_udp_listener.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <marker date="1471119064000" expanded="false" signature="829:856" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/stk_sync.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programs/name_service_tests.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="432" column="46" selection-start-line="432" selection-start-column="46" selection-end-line="432" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daemons/stknamed.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="719" column="39" selection-start-line="719" selection-start-column="39" selection-end-line="719" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/stk_name_service.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="347" column="9" selection-start-line="347" selection-start-column="9" selection-end-line="347" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daemons/stkhttpd.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9911">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daemons/stk_httpd_main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daemons/stkd.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/stk_sync.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-116">
+          <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="36" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unit_tests/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programs/test.make">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programs/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="55" column="41" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daemons/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="91" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_programs/service_group_auto_svc_test.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="330">
+            <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
