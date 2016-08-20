@@ -1,9 +1,21 @@
 # Welcome to the Sequence Toolkit
 
 ## CLion
-This project is being open sourced as a CLion project from an exiting code base. Its just the beginning.
-Thus, not all your typical install instructions exist yet. What follows are the traditional instructions which
-should work from the build dir of CLion
+This project is being open sourced. Its main development platform is a CLion project from an exiting code base,
+but it can be build insource using more traditional methods...  This is just the beginning,
+thus, not all your typical install instructions exist yet. What follows are the traditional instructions which
+should work from the build dir of CLion or the root of an in-source build
+
+## In Source Building
+
+To build the project in-source and without CLion, from the root dir:
+
+```
+ cmake .
+ make
+```
+
+
 
 ## Getting Started
 

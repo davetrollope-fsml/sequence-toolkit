@@ -6,7 +6,7 @@
 #include "stk_service_group_api.h"
 #include "stk_sg_automation_api.h"
 #include "stk_test.h"
-#include "../src/stk_df_internal.h"
+#include "../lib/stk_df_internal.h"
 
 stk_ret stk_add_test_client_ip(stk_sequence_t *seq)
 {
