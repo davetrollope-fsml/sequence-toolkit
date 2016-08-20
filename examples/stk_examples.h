@@ -35,7 +35,7 @@
 	char *monitor_ip; \
 	char *monitor_port; \
 	char *monitor_name; \
-	char monitor_protocol[5];
+	char monitor_protocol[7];
 
 #define process_monitoring_string(_opts,_str) do { \
 	stk_protocol_def_t _pdef; stk_data_flow_parse_protocol_str(&_pdef,_str); \
