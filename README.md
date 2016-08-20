@@ -27,23 +27,27 @@ To build the project in-source and without CLion, from the root dir:
 Get started without installing, using the following examples as a guide:
 
 	First, start the daemons. They can be run individually or as one threaded integrated daemon (as shown here).
-		cd daemons;
-		Create a config file called stkd.cfg in the daemons dir, in the format '<named|httpd>: <args>' and
-		specify the IP to bind each daemon as arguments. E.G. :
-			httpd: -T 127.0.0.1:20001
-			named: -T 127.0.0.1:20002
+		An example config file called stkd.cfg is provided in the daemons dir which uses localhost as the bind address.
+		It is in the format '<named|httpd>: <args>' E.G. :
+		
+            httpd: -T 127.0.0.1:20001 -U 127.0.0.1:20001
+            named: -T 127.0.0.1:20002 -U 127.0.0.1:20002
 
+		cd daemons;
 		LD_LIBRARY_PATH=../lib ./stkd &
 		cd ..
+		
+		Note, this is running the integrated daemon in the background.
 
-	Run the monitored service example (choose your language):
+	Run the monitored service example (choose your language, examples is C):
+	
 		cd examples; LD_LIBRARY_PATH=../lib ./monitored_service -t 2
 		cd ruby_examples; LD_LIBRARY_PATH=../lib ruby -I. monitored_service.rb -t 2 # make sure you gem install the gem first ;-)
 		cd python_examples; LD_LIBRARY_PATH=../lib:../site-packages-<python version> PYTHONPATH=../site-packages-<python version> python monitored_service.py -t 2
 		cd java_examples; LD_LIBRARY_PATH=../lib:../java $JAVA_HOME/bin/java -cp ../java/stk.jar:. monitored_service -t 2
 	etc... Have fun!
 
-	Client/Server and monitoring by name example:
+	Also, here is a client/server example with name based monitoring:
 	cd examples;
 		# Registers itself as 'Simple Server Service Group' and searches for the web service by name 'monitor'
 		LD_LIBRARY_PATH=../lib ./simple_server -B 127.0.0.1:29312 -m lookup:monitor
