@@ -1,10 +1,15 @@
 # Welcome to the Sequence Toolkit
 
-## CLion
-This project is being open sourced. Its main development platform is a CLion project from an exiting code base,
-but it can be build insource using more traditional methods...  This is just the beginning,
+This project is being open sourced from a private project. This is just the beginning of the open source efforts,
 thus, not all your typical install instructions exist yet. What follows are the traditional instructions which
-should work from the build dir of CLion or the root of an in-source build
+should work from the build dir of CLion or the root of an in-source build, and the API bindings are not currently included... Coming...
+
+Its main development platform is a CLion project, but it can be build in-source using more traditional methods... 
+
+## CLion
+
+Load the project and build it... You probably know how already...
+
 
 ## In Source Building
 
@@ -28,11 +33,11 @@ Get started without installing, using the following examples as a guide:
 			httpd: -T 127.0.0.1:20001
 			named: -T 127.0.0.1:20002
 
-		LD_LIBRARY_PATH=../lib stkd &
+		LD_LIBRARY_PATH=../lib ./stkd &
 		cd ..
 
 	Run the monitored service example (choose your language):
-		cd examples; LD_LIBRARY_PATH=../lib monitored_service -t 2
+		cd examples; LD_LIBRARY_PATH=../lib ./monitored_service -t 2
 		cd ruby_examples; LD_LIBRARY_PATH=../lib ruby -I. monitored_service.rb -t 2 # make sure you gem install the gem first ;-)
 		cd python_examples; LD_LIBRARY_PATH=../lib:../site-packages-<python version> PYTHONPATH=../site-packages-<python version> python monitored_service.py -t 2
 		cd java_examples; LD_LIBRARY_PATH=../lib:../java $JAVA_HOME/bin/java -cp ../java/stk.jar:. monitored_service -t 2
@@ -53,8 +58,8 @@ Integrated Daemon vs Separate Daemons
 		named: -T 127.0.0.1:20002
 	is the same as:
 		cd daemons;
-		LD_LIBRARY_PATH=../lib stknamed -T 127.0.0.1:20002 &
-		LD_LIBRARY_PATH=../lib stkhttpd -T 127.0.0.1:20001 &
+		LD_LIBRARY_PATH=../lib ./stknamed -T 127.0.0.1:20002 &
+		LD_LIBRARY_PATH=../lib ./stkhttpd -T 127.0.0.1:20001 &
 
 Full Installation Details:
 
