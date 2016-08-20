@@ -49,7 +49,10 @@
     </ADDITIONAL_GENERATION_ENVIRONMENT>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2175024d-aab7-40c1-9f84-2de9e1d2fd73" name="Default" comment="" />
+    <list default="true" id="2175024d-aab7-40c1-9f84-2de9e1d2fd73" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
     <ignored path="sequence_toolkit.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,32 +71,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.make" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_programs/test.make">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="330">
-                <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <first_editor relative-caret-position="285">
+                <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -101,54 +84,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/CMakeLists.txt">
+      <file leaf-file-name="simple_client.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/simple_client.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            <state relative-caret-position="150">
+              <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unit_tests/CMakeLists.txt">
+      <file leaf-file-name="stk_examples.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/stk_examples.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="181">
+              <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_programs/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="55" column="41" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="104" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daemons/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="91" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="service_group_auto_svc_test.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_programs/service_group_auto_svc_test.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -183,6 +134,8 @@
         <option value="$PROJECT_DIR$/daemons/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/test_programs/service_group_auto_svc_test.c" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/examples/stk_examples.h" />
+        <option value="$PROJECT_DIR$/examples/simple_server.c" />
       </list>
     </option>
   </component>
@@ -192,10 +145,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="193" />
-    <option name="y" value="70" />
-    <option name="width" value="1427" />
+    <option name="x" value="56" />
+    <option name="y" value="98" />
+    <option name="width" value="1582" />
     <option name="height" value="821" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -251,21 +205,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test_programs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sequence_toolkit" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sequence_toolkit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="daemons" />
+              <option name="myItemId" value="examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -289,13 +229,15 @@
       <recent name="$PROJECT_DIR$/examples" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Build All">
+  <component name="RunManager" selected="Application.stkhttpd">
     <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="sequence_toolkit" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="sequence_toolkit" CONFIG_NAME="Debug">
-      <envs />
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="sequence_toolkit" CONFIG_NAME="Debug">
+      <envs>
+        <env name="LD_LIBRARY_PATH" value="../lib" />
+      </envs>
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -463,7 +405,15 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="simple_client" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="simple_client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="simple_client">
+    <configuration default="false" name="stkd" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="stkd" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="stkd">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="stknamed" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-T 127.0.0.1:20002" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="stknamed" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="stknamed">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="stkhttpd" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-T 127.0.0.1:20001" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="stkhttpd" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="stkhttpd">
       <envs />
       <method />
     </configuration>
@@ -471,15 +421,19 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="simple_server" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-B 127.0.0.1:29312 -m lookup:monitor" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="simple_server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="simple_server">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="simple_client" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-i &quot;lookup:Simple Server Service Group&quot; -m lookup:monitor" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="simple_client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="simple_client">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="publish" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="publish" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="publish">
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="raw_multicast_bridge" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="raw_multicast_bridge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="raw_multicast_bridge">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="simple_name_lookup" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="simple_name_lookup" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="simple_name_lookup">
+    <configuration default="false" name="subscribe" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="subscribe" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="subscribe">
       <envs />
       <method />
     </configuration>
@@ -487,15 +441,15 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="simple_server" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="simple_server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="simple_server">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="subscribe" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="subscribe" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="subscribe">
+    <configuration default="false" name="simple_name_lookup" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="simple_name_lookup" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="simple_name_lookup">
       <envs />
       <method />
     </configuration>
     <configuration default="false" name="throughput_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="throughput_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="throughput_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="raw_multicast_bridge" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="raw_multicast_bridge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="raw_multicast_bridge">
       <envs />
       <method />
     </configuration>
@@ -571,18 +525,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="stkd" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="stkd" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="stkd">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="stknamed" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-T 127.0.0.1:20002" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="stknamed" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="stknamed">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="stkhttpd" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-T 127.0.0.1:20001" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="stkhttpd" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sequence_toolkit" RUN_TARGET_NAME="stkhttpd">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="mongoose" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sequence_toolkit" TARGET_NAME="mongoose" CONFIG_NAME="Debug">
       <envs />
       <method />
@@ -595,36 +537,36 @@
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.test_sequence_toolkit" />
       <item index="2" class="java.lang.String" itemvalue="Application.stk" />
-      <item index="3" class="java.lang.String" itemvalue="Application.simple_client" />
-      <item index="4" class="java.lang.String" itemvalue="Application.monitored_service" />
-      <item index="5" class="java.lang.String" itemvalue="Application.publish" />
-      <item index="6" class="java.lang.String" itemvalue="Application.raw_multicast_bridge" />
-      <item index="7" class="java.lang.String" itemvalue="Application.simple_name_lookup" />
-      <item index="8" class="java.lang.String" itemvalue="Application.simple_name_registration" />
-      <item index="9" class="java.lang.String" itemvalue="Application.simple_server" />
+      <item index="3" class="java.lang.String" itemvalue="Application.stkd" />
+      <item index="4" class="java.lang.String" itemvalue="Application.stknamed" />
+      <item index="5" class="java.lang.String" itemvalue="Application.stkhttpd" />
+      <item index="6" class="java.lang.String" itemvalue="Application.monitored_service" />
+      <item index="7" class="java.lang.String" itemvalue="Application.simple_server" />
+      <item index="8" class="java.lang.String" itemvalue="Application.simple_client" />
+      <item index="9" class="java.lang.String" itemvalue="Application.publish" />
       <item index="10" class="java.lang.String" itemvalue="Application.subscribe" />
-      <item index="11" class="java.lang.String" itemvalue="Application.throughput_test" />
-      <item index="12" class="java.lang.String" itemvalue="Application.sync_test" />
-      <item index="13" class="java.lang.String" itemvalue="Application.check_service_group_state_test" />
-      <item index="14" class="java.lang.String" itemvalue="Application.create_env_test" />
-      <item index="15" class="java.lang.String" itemvalue="Application.create_lite_pkg_test" />
-      <item index="16" class="java.lang.String" itemvalue="Application.create_sequence_test" />
-      <item index="17" class="java.lang.String" itemvalue="Application.create_service_group_test" />
-      <item index="18" class="java.lang.String" itemvalue="Application.create_service_test" />
-      <item index="19" class="java.lang.String" itemvalue="Application.name_service_tests" />
-      <item index="20" class="java.lang.String" itemvalue="Application.options_tests" />
-      <item index="21" class="java.lang.String" itemvalue="Application.rawudp_data_flow_test" />
-      <item index="22" class="java.lang.String" itemvalue="Application.sequence_iterator_test" />
-      <item index="23" class="java.lang.String" itemvalue="Application.sequence_tests" />
-      <item index="24" class="java.lang.String" itemvalue="Application.service_group_auto_svc_test" />
-      <item index="25" class="java.lang.String" itemvalue="Application.service_state_names" />
-      <item index="26" class="java.lang.String" itemvalue="Application.tcp_data_flow_test" />
-      <item index="27" class="java.lang.String" itemvalue="Application.test_types" />
-      <item index="28" class="java.lang.String" itemvalue="Application.timer_test" />
-      <item index="29" class="java.lang.String" itemvalue="Application.udp_data_flow_test" />
-      <item index="30" class="java.lang.String" itemvalue="Application.stkd" />
-      <item index="31" class="java.lang.String" itemvalue="Application.stknamed" />
-      <item index="32" class="java.lang.String" itemvalue="Application.stkhttpd" />
+      <item index="11" class="java.lang.String" itemvalue="Application.simple_name_registration" />
+      <item index="12" class="java.lang.String" itemvalue="Application.simple_name_lookup" />
+      <item index="13" class="java.lang.String" itemvalue="Application.throughput_test" />
+      <item index="14" class="java.lang.String" itemvalue="Application.raw_multicast_bridge" />
+      <item index="15" class="java.lang.String" itemvalue="Application.sync_test" />
+      <item index="16" class="java.lang.String" itemvalue="Application.check_service_group_state_test" />
+      <item index="17" class="java.lang.String" itemvalue="Application.create_env_test" />
+      <item index="18" class="java.lang.String" itemvalue="Application.create_lite_pkg_test" />
+      <item index="19" class="java.lang.String" itemvalue="Application.create_sequence_test" />
+      <item index="20" class="java.lang.String" itemvalue="Application.create_service_group_test" />
+      <item index="21" class="java.lang.String" itemvalue="Application.create_service_test" />
+      <item index="22" class="java.lang.String" itemvalue="Application.name_service_tests" />
+      <item index="23" class="java.lang.String" itemvalue="Application.options_tests" />
+      <item index="24" class="java.lang.String" itemvalue="Application.rawudp_data_flow_test" />
+      <item index="25" class="java.lang.String" itemvalue="Application.sequence_iterator_test" />
+      <item index="26" class="java.lang.String" itemvalue="Application.sequence_tests" />
+      <item index="27" class="java.lang.String" itemvalue="Application.service_group_auto_svc_test" />
+      <item index="28" class="java.lang.String" itemvalue="Application.service_state_names" />
+      <item index="29" class="java.lang.String" itemvalue="Application.tcp_data_flow_test" />
+      <item index="30" class="java.lang.String" itemvalue="Application.test_types" />
+      <item index="31" class="java.lang.String" itemvalue="Application.timer_test" />
+      <item index="32" class="java.lang.String" itemvalue="Application.udp_data_flow_test" />
       <item index="33" class="java.lang.String" itemvalue="Application.mongoose" />
       <item index="34" class="java.lang.String" itemvalue="Application.test.make" />
     </list>
@@ -643,29 +585,29 @@
       <option name="presentableId" value="Default" />
       <updated>1471115025100</updated>
       <workItem from="1471115026415" duration="248000" />
-      <workItem from="1471115331334" duration="27290000" />
+      <workItem from="1471115331334" duration="30709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27538000" />
+    <option name="totallyTimeSpent" value="30957000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="193" y="70" width="1427" height="821" extended-state="0" />
+    <frame x="56" y="98" width="1582" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16002844" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14413837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5089163" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4095563" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40877914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24952015" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965687" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39950982" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39917696" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -687,7 +629,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/examples/simple_client.c</url>
+          <line>159</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -900,22 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unit_tests/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -940,11 +873,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_programs/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/test_programs/service_group_auto_svc_test.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="55" column="41" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="104" />
-          <folding />
+        <state relative-caret-position="125">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -956,21 +891,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_programs/service_group_auto_svc_test.c">
+    <entry file="file://$PROJECT_DIR$/test_programs/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="320">
+          <caret line="55" column="41" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unit_tests/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stk_examples.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/simple_server.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="285" column="52" selection-start-line="285" selection-start-column="52" selection-end-line="285" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/simple_client.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="330">
-            <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <first_editor relative-caret-position="285">
+            <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
