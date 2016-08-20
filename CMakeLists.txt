@@ -3,8 +3,8 @@ project(sequence_toolkit)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c11")
 
-include_directories(include src examples daemons mongoose)
-add_subdirectory(src)
+include_directories(include lib examples daemons mongoose)
+add_subdirectory(lib)
 add_subdirectory(examples)
 add_subdirectory(daemons)
 add_subdirectory(test_programs)

@@ -142,7 +142,7 @@ int stk_url_common_services(const struct mg_request_info *request_info,stk_page_
 
 	content_length = stk_url_cat("banner.phtml",content_length);
 
-	STK_ADD_CONTENT(content,content_length, "<iframe frameborder=0 seamless scrolling=\"no\" allowTransparency=\"true\" id=\"data_frame\" name=\"data_frame\" width=1 height=1 src=\"/%s_data/%s\"></iframe>\n", stk_url_page_name(page_type), filter ? filter : "");
+	STK_ADD_CONTENT(content,content_length, "<iframe frameborder=0 seamless scrolling=\"no\" allowTransparency=\"true\" id=\"data_frame\" name=\"data_frame\" width=1 height=1 lib=\"/%s_data/%s\"></iframe>\n", stk_url_page_name(page_type), filter ? filter : "");
 	STK_ADD_CONTENT(content,content_length,
 		"<script>var services = new Array(); var services_size = 0; var svc_obj; var service_history = new Array(); var services_history_size = 0;\n");
 	STK_ADD_CONTENT(content,content_length,"daemon_obj = new Object();\n");
