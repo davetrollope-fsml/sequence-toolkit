@@ -138,11 +138,11 @@ int stk_url_common_services(const struct mg_request_info *request_info,stk_page_
 	content_length = stk_url_cat("charts.phtml",content_length);
 	if(filter && filter[0] == '\0') filter = NULL;
 
-	STK_ASSERT(STKA_HTTPD,rc==STK_SUCCESS,"Couldnt get system time in stk_url_common_services");
+	STK_ASSERT(STKA_HTTPD,rc==STK_SUCCESS,"Get system time in stk_url_common_services");
 
 	content_length = stk_url_cat("banner.phtml",content_length);
 
-	STK_ADD_CONTENT(content,content_length, "<iframe frameborder=0 seamless scrolling=\"no\" allowTransparency=\"true\" id=\"data_frame\" name=\"data_frame\" width=1 height=1 lib=\"/%s_data/%s\"></iframe>\n", stk_url_page_name(page_type), filter ? filter : "");
+	STK_ADD_CONTENT(content,content_length, "<iframe frameborder=0 seamless scrolling=\"no\" allowTransparency=\"true\" id=\"data_frame\" name=\"data_frame\" width=1 height=1 src=\"/%s_data/%s\"></iframe>\n", stk_url_page_name(page_type), filter ? filter : "");
 	STK_ADD_CONTENT(content,content_length,
 		"<script>var services = new Array(); var services_size = 0; var svc_obj; var service_history = new Array(); var services_history_size = 0;\n");
 	STK_ADD_CONTENT(content,content_length,"daemon_obj = new Object();\n");
@@ -221,7 +221,7 @@ int stk_url_common_service_data(const struct mg_request_info *request_info,stk_p
 	int content_length = 0;
 	if(filter && filter[0] == '\0') filter = NULL;
 
-	STK_ASSERT(STKA_HTTPD,rc==STK_SUCCESS,"Couldnt get system time in stk_url_common_data");
+	STK_ASSERT(STKA_HTTPD,rc==STK_SUCCESS,"Get system time in stk_url_common_data");
 
 	content_length = stk_url_cat("header-data.phtml",0);
 	STK_ADD_CONTENT(content,content_length,
