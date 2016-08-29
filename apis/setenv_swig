@@ -1,0 +1,20 @@
+if [ "$STKSWIGDIR" == "" ]; then
+	STKSWIGDIR=$HOME/public_stk/sequence_toolkit/apis
+fi
+case "$(uname -n)" in
+Davids-MacBook-Air*)
+	SWIGDIR=$HOME/swig305/bin
+	;;
+*)
+	#SWIGDIR=$HOME/swig-2.0.11
+	SWIGDIR=$HOME/swig305/bin
+	export JAVA_HOME=/usr/java/jre1.7.0_45
+	PATH=$JAVA_HOME/bin:$PATH
+	;;
+esac
+PATH=$SWIGDIR:$PATH
+export PYTHONPATH=$STKSWIGDIR/site-packages
+export LD_LIBRARY_PATH=$STKSWIGDIR/../lib:$STKSWIGDIR/site-packages:$STKSWIGDIR/java
+export DYLD_LIBRARY_PATH=$STKSWIGDIR/../lib:$STKSWIGDIR/site-packages:$STKSWIGDIR/java
+export CLASSPATH=$STKSWIGDIR/java:$STKSWIGDIR/java_examples
+

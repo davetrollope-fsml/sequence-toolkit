@@ -2,12 +2,12 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
     <generated>
-      <config projectName="sequence_toolkit" targetName="publish" />
       <config projectName="sequence_toolkit" targetName="name_service_tests" />
-      <config projectName="sequence_toolkit" targetName="monitored_service" />
-      <config projectName="sequence_toolkit" targetName="simple_server" />
+      <config projectName="sequence_toolkit" targetName="publish" />
       <config projectName="sequence_toolkit" targetName="create_env_test" />
       <config projectName="sequence_toolkit" targetName="service_state_names" />
+      <config projectName="sequence_toolkit" targetName="simple_server" />
+      <config projectName="sequence_toolkit" targetName="monitored_service" />
       <config projectName="sequence_toolkit" targetName="create_service_test" />
       <config projectName="sequence_toolkit" targetName="test_types" />
       <config projectName="sequence_toolkit" targetName="subscribe" />
@@ -16,18 +16,18 @@
       <config projectName="sequence_toolkit" targetName="test.make" />
       <config projectName="sequence_toolkit" targetName="raw_multicast_bridge" />
       <config projectName="sequence_toolkit" targetName="simple_name_registration" />
-      <config projectName="sequence_toolkit" targetName="sequence_toolkit" />
       <config projectName="sequence_toolkit" targetName="simple_name_lookup" />
+      <config projectName="sequence_toolkit" targetName="sequence_toolkit" />
       <config projectName="sequence_toolkit" targetName="stknamed" />
       <config projectName="sequence_toolkit" targetName="create_lite_pkg_test" />
+      <config projectName="sequence_toolkit" targetName="mongoose" />
       <config projectName="sequence_toolkit" targetName="rawudp_data_flow_test" />
       <config projectName="sequence_toolkit" targetName="timer_test" />
-      <config projectName="sequence_toolkit" targetName="mongoose" />
       <config projectName="sequence_toolkit" targetName="stkhttpd" />
       <config projectName="sequence_toolkit" targetName="options_tests" />
-      <config projectName="sequence_toolkit" targetName="check_service_group_state_test" />
-      <config projectName="sequence_toolkit" targetName="tcp_data_flow_test" />
       <config projectName="sequence_toolkit" targetName="make" />
+      <config projectName="sequence_toolkit" targetName="tcp_data_flow_test" />
+      <config projectName="sequence_toolkit" targetName="check_service_group_state_test" />
       <config projectName="sequence_toolkit" targetName="test_sequence_toolkit" />
       <config projectName="sequence_toolkit" targetName="sequence_tests" />
       <config projectName="sequence_toolkit" targetName="throughput_test" />
@@ -38,8 +38,8 @@
       <config projectName="sequence_toolkit" targetName="sync_test" />
       <config projectName="sequence_toolkit" targetName="simple_client" />
       <config projectName="sequence_toolkit" targetName="myinstall" />
-      <config projectName="sequence_toolkit" targetName="stk" />
       <config projectName="sequence_toolkit" targetName="service_group_auto_svc_test" />
+      <config projectName="sequence_toolkit" targetName="stk" />
       <config projectName="sequence_toolkit" targetName="create_service_group_test" />
     </generated>
   </component>
@@ -50,7 +50,108 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2175024d-aab7-40c1-9f84-2de9e1d2fd73" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/common_interfaces/stk_data_flow.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/common_interfaces/stk_env.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/common_interfaces/stk_name_service.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/common_interfaces/stk_options.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/common_interfaces/stk_sequence.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/common_interfaces/stk_service.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/common_interfaces/stk_service_group.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/common_interfaces/stk_smartbeat.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/common_interfaces/stk_tcp_server.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/java_examples/monitored_service.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/mk_gem.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/mk_interfaces.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/mk_java_interfaces.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/mk_python_interfaces.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/mk_ruby_interfaces.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_examples/monitored_service.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_examples/publish.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_examples/simple_client.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_examples/simple_name_lookup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_examples/simple_name_registration.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_examples/simple_server.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_examples/stk_examples.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_examples/subscribe.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/default.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_data_flow.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_data_flow.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_env.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_env.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_name_service.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_name_service.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_name_service.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_options.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_options.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_rawudp.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_rawudp.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_sequence.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_sequence.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_service.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_service.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_service_group.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_service_group.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_sg_automation.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_smartbeat.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_smartbeat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_tcp_client.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_tcp_client.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_tcp_server.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_tcp_server.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_udp_client.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_udp_client.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_udp_listener.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/python_interface_helpers/stk_udp_listener.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/default.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stk_data_flow.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stk_data_flow.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stk_env.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stk_env.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stk_name_service.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stk_name_service.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stk_options.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stk_options.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stk_rawudp.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stk_rawudp_client.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stk_rawudp_listener.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stk_sequence.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stk_sequence.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stk_service.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stk_service_group.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stk_service_group.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stk_tcp_client.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stk_tcp_client.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stk_tcp_server.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stk_tcp_server.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stk_udp_client.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stk_udp_client.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stk_udp_listener.i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stk_udp_listener.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stkenv.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stkname_service.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_api/stkservice_group.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_examples/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_examples/Gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_examples/bin/bundler" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_examples/bin/stkd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_examples/bin/stkhttpd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_examples/monitored_service.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_examples/publish.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_examples/simple_client.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_examples/simple_name_lookup.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_examples/simple_name_registration.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_examples/simple_server.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_examples/stk_examples.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/ruby_examples/subscribe.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/setenv_swig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/stk.gemspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/stk_dispatcher_cb.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/stk_name_service_cb.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apis/stk_service_cb.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="sequence_toolkit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,43 +170,7 @@
     <favorites_list name="sequence_toolkit" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="585">
-                <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stkhttpd.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daemons/stkhttpd.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="111" column="9" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stk_httpcontent.c" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/daemons/stk_httpcontent.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -133,13 +198,13 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/test_programs/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/test_programs/service_group_auto_svc_test.c" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/examples/stk_examples.h" />
         <option value="$PROJECT_DIR$/examples/simple_server.c" />
         <option value="$PROJECT_DIR$/daemons/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/daemons/stkhttpd.c" />
         <option value="$PROJECT_DIR$/daemons/js/stkhttpd.js" />
         <option value="$PROJECT_DIR$/daemons/stk_httpcontent.c" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -151,9 +216,9 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="394" />
-    <option name="y" value="134" />
-    <option name="width" value="1366" />
+    <option name="x" value="15" />
+    <option name="y" value="23" />
+    <option name="width" value="1127" />
     <option name="height" value="678" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -209,7 +274,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
+              <option name="myItemId" value="apis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -221,16 +286,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test_programs" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apis" />
       <recent name="$PROJECT_DIR$/daemons" />
       <recent name="$PROJECT_DIR$/mongoose" />
       <recent name="$PROJECT_DIR$/test_programs" />
       <recent name="$PROJECT_DIR$/unit_tests" />
-      <recent name="$PROJECT_DIR$/examples" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test_programs" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Application.stkd">
@@ -590,34 +655,35 @@
       <updated>1471115025100</updated>
       <workItem from="1471115026415" duration="248000" />
       <workItem from="1471115331334" duration="45902000" />
+      <workItem from="1471875183961" duration="1194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46150000" />
+    <option name="totallyTimeSpent" value="47344000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="394" y="134" width="1366" height="678" extended-state="0" />
+    <frame x="15" y="23" width="1127" height="678" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21040893" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25587705" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5085324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32647464" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40877914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26081082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24919923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965687" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49658704" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5085324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40877914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49658704" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -680,35 +746,48 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="915">
+            <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daemons/stkhttpd.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1665">
+          <caret line="111" column="9" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daemons/stk_httpcontent.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp" />
+    <entry file="file://$PROJECT_DIR$/main.cpp" />
     <entry file="file://$PROJECT_DIR$/lib/stk_internal.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -716,7 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -724,29 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <marker date="1471118953000" expanded="true" signature="740:1184" ph="{...}" />
-            <marker date="1471118953000" expanded="true" signature="1231:1406" ph="{...}" />
-            <marker date="1471118953000" expanded="true" signature="1456:1705" ph="{...}" />
-            <marker date="1471118953000" expanded="true" signature="1760:1936" ph="{...}" />
-            <marker date="1471118953000" expanded="true" signature="1983:2147" ph="{...}" />
-            <marker date="1471118953000" expanded="true" signature="2209:2378" ph="{...}" />
-            <marker date="1471118953000" expanded="true" signature="2426:2588" ph="{...}" />
-            <marker date="1471118953000" expanded="true" signature="2649:2811" ph="{...}" />
-            <marker date="1471118953000" expanded="true" signature="2868:3039" ph="{...}" />
-            <marker date="1471118953000" expanded="true" signature="3096:3261" ph="{...}" />
-            <marker date="1471118953000" expanded="true" signature="3314:3639" ph="{...}" />
-            <marker date="1471118953000" expanded="true" signature="3736:3993" ph="{...}" />
-            <marker date="1471118953000" expanded="true" signature="4097:4338" ph="{...}" />
-            <marker date="1471118953000" expanded="true" signature="4437:4698" ph="{...}" />
-            <marker date="1471118953000" expanded="true" signature="4803:5235" ph="{...}" />
-            <marker date="1471118953000" expanded="true" signature="5287:5523" ph="{...}" />
-            <marker date="1471118953000" expanded="true" signature="5577:5862" ph="{...}" />
-            <marker date="1471118953000" expanded="true" signature="5966:6407" ph="{...}" />
-            <marker date="1471118953000" expanded="true" signature="6518:6831" ph="{...}" />
-            <marker date="1471118953000" expanded="true" signature="7274:7385" ph="{...}" />
-            <marker date="1471118953000" expanded="true" signature="7637:9031" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -754,7 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4835">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -762,9 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#34#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -772,9 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -782,9 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -792,9 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
           <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding>
-            <element signature="e#160#181#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,9 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <marker date="1471119064000" expanded="false" signature="829:856" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,7 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,7 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
           <caret line="432" column="46" selection-start-line="432" selection-start-column="46" selection-end-line="432" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="347" column="9" selection-start-line="347" selection-start-column="9" selection-end-line="347" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,7 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,23 +879,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-116">
           <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="36" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README" />
     <entry file="file://$PROJECT_DIR$/examples/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -868,7 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -876,7 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -884,9 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -894,7 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="55" column="41" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="104" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -902,7 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -910,7 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -918,7 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
           <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -926,7 +943,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -950,7 +966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -958,7 +973,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -974,7 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="166" column="18" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -982,7 +995,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="195" column="5" selection-start-line="195" selection-start-column="5" selection-end-line="195" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,18 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="585">
-            <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1009,31 +1009,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daemons/stk_httpcontent.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="144" column="10" selection-start-line="144" selection-start-column="10" selection-end-line="144" selection-end-column="10" />
           <folding>
-            <marker date="1471869966000" expanded="true" signature="2601:2607" ph=" " />
-            <marker date="1471869966000" expanded="true" signature="3569:3575" ph=" " />
-            <marker date="1471869966000" expanded="true" signature="3753:3759" ph=" " />
-            <marker date="1471869966000" expanded="true" signature="4781:4787" ph=" " />
-            <marker date="1471869966000" expanded="true" signature="4917:4923" ph=" " />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/daemons/stkhttpd.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
+        <state relative-caret-position="15">
           <caret line="111" column="9" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daemons/stk_httpcontent.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="615">
+            <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -38,6 +38,8 @@ Get started without installing, using the following examples as a guide:
 		cd ..
 		
 		Note, this is running the integrated daemon in the background.
+		
+		Visit http://localhost:8080/ in your browser
 
 	Run the monitored service example (choose your language, examples is C):
 	

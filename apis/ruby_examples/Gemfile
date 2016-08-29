@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+
+gem 'stk'
+gem 'pry'
+gem 'pry-nav'
+
