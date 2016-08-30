@@ -2,14 +2,15 @@
 
 This project is being open sourced from a private project. This is just the beginning of the open source efforts,
 thus, not all your typical install instructions exist yet. What follows are the traditional instructions which
-should work from the build dir of CLion or the root of an in-source build, and the API bindings are not currently included... Coming...
+should work from the build dir of CLion or the root of an in-source build.
+
+For building API bindings, see the README.md in the api directory - the following refers to the core library.
 
 Its main development platform is a CLion project, but it can be build in-source using more traditional methods... 
 
 ## CLion
 
 Load the project and build it... You probably know how already...
-
 
 ## In Source Building
 
@@ -71,16 +72,6 @@ Full Installation Details:
 
 Core Library Installation:
 	Copy/move/extract this dir tree to your favoured location and ensure that your LD_LIBRARY_PATH includes the lib dir when running your application.
-
-API Installation:
-	Python:
-	Install the Core Library, and set the PYTHONPATH to include the site-packages dir
-
-	Ruby:
-	Install the Core Library, and copy the content of the ruby dir to the ruby site path, eg. /usr/local/lib/ruby/site_ruby/2.0.0/x86_64-linux
-
-	Java:
-	Install the Core Library, and do the same for the libraries in the java dir, then set the classpath to include the stk.jar
 
 Programmers Reference:
 	Please refer to the content of the doc dir
