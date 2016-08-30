@@ -1,8 +1,8 @@
-eg_dispatcher.o:
-	cc -c -o eg_dispatcher.o -I ../include -I ../examples ../examples/eg_dispatcher.c
-
 all: eg_dispatcher.o
 	./mk_interfaces.sh # Builds in parallel
+
+eg_dispatcher.o:
+	cc -c -o eg_dispatcher.o -I ../include -I ../examples ../examples/eg_dispatcher.c
 
 .PHONY: ruby python java
 
