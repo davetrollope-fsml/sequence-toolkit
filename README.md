@@ -27,7 +27,8 @@ To build the project in-source and without CLion, from the root dir:
 
 Get started without installing, using the following examples as a guide:
 	Depending on how you built STK, the library and binaries will be in different places. Set STKOBJDIR to the appropriate place, E.G.
-		CLion: STKOBJDIR=$HOME/Library/Caches/CLion2016.*/cmake/generated/sequence_toolkit-*/*/Debug
+		CLion 2016.2: STKOBJDIR=$HOME/Library/Caches/CLion2016.2/cmake/generated/sequence_toolkit-*/*/Debug
+		CLion 2016.3: STKOBJDIR=$PWD/cmake-build-debug
 		In source: STKOBJDIR=$PWD
 	This will be used in the following examples to locate the STK library
 
@@ -50,7 +51,8 @@ Get started without installing, using the following examples as a guide:
 	
 		cd examples; LD_LIBRARY_PATH=$STKOBJDIR/lib ./monitored_service -t 2
 		cd ruby_examples; LD_LIBRARY_PATH=$STKOBJDIR/lib ruby -I. monitored_service.rb -t 2 # make sure you gem install the gem first ;-)
-		cd python_examples; LD_LIBRARY_PATH=$STKOBJDIR/lib:../site-packages-<python version> PYTHONPATH=../site-packages-<python version> python monitored_service.py -t 2
+		PYTHONVER=$(python --version 2>&1 | cut -f2 -d' ' |sed "s/\([0-9]\.[0-9]\).*/\1/")
+		cd python_examples; LD_LIBRARY_PATH=$STKOBJDIR/lib:../site-packages-$PYTHONVER PYTHONPATH=../site-packages-$PYTHONVER python monitored_service.py -t 2
 		cd java_examples; LD_LIBRARY_PATH=$STKOBJDIR/lib:../java $JAVA_HOME/bin/java -cp ../java/stk.jar:. monitored_service -t 2
 	etc... Have fun!
 
