@@ -1,3 +1,6 @@
+
+set(CMAKE_VERBOSE_MAKEFILE ON)
+
 set(LIB_SOURCES
         PLists.c
         PLists.h
