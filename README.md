@@ -21,11 +21,22 @@ To build the project in-source and without CLion, from the root dir:
  make
 ```
 
+## Platform Support
 
+This package is currently in development mode.
+
+The core STK library should build and run cleanly on both Linux and OS X.
+However, little focus has been given to installing the library at the system level and thus there may be issues linking
+against the library, E.G. with respect to OS X and recent changes in El Capitan.
+
+The core library is developed on OS X and the CMake project has yet to be tested on Linux.
+
+The APIs are not yet functional due to the above mentioned issues.
 
 ## Getting Started
 
 Get started without installing, using the following examples as a guide:
+
 	Depending on how you built STK, the library and binaries will be in different places. Set STKOBJDIR to the appropriate place, E.G.
 		CLion 2016.2: STKOBJDIR=$HOME/Library/Caches/CLion2016.2/cmake/generated/sequence_toolkit-*/*/Debug
 		CLion 2016.3: STKOBJDIR=$PWD/cmake-build-debug
