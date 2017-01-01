@@ -3,7 +3,9 @@ project(sequence_toolkit)
 
 set(CMAKE_VERBOSE_MAKEFILE ON)
 
+if(NOT APPLE)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -D_BSD_SOURCE -D_XOPEN_SOURCE=500 -std=c11")
+endif()
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c11")
 
 include_directories(include lib examples daemons mongoose)
