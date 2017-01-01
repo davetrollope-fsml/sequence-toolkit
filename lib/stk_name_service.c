@@ -17,6 +17,8 @@
 #include "stk_ports.h"
 #include "PLists.h"
 #include <string.h>
+#include <strings.h>
+#include <sys/time.h>
 
 typedef struct stk_name_request_stct {
 	stk_name_info_t request;
