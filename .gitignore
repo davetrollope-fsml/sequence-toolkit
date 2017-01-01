@@ -31,3 +31,7 @@
 # Debug files
 *.dSYM/
 *.su
+
+# Tests
+*_test
+*_tests
