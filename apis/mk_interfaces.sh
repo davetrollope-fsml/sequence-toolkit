@@ -1,5 +1,8 @@
 PATH=$PATH:.
-. setenv_swig
+swig_installed=$(type -a swig; echo $?)
+if [ $swig_installed -gt 0 ]; then
+  . setenv_swig
+fi
 
 UNAME="$(uname)"
 case "$UNAME" in

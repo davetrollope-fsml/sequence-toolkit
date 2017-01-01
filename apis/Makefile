@@ -2,7 +2,7 @@ all: eg_dispatcher.o
 	./mk_interfaces.sh # Builds in parallel
 
 eg_dispatcher.o:
-	cc -c -o eg_dispatcher.o -I ../include -I ../examples ../examples/eg_dispatcher.c
+	cc -c -o eg_dispatcher.o -I ../include -I ../examples -fPIC -D_BSD_SOURCE -D_XOPEN_SOURCE=500 -std=c11 ../examples/eg_dispatcher.c
 
 .PHONY: ruby python java
 

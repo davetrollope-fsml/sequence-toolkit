@@ -1,4 +1,8 @@
 
+if [ ! -r eg_dispatcher.o ]; then
+  make eg_dispatcher.o
+fi
+
 UNAME="$(uname)"
 case "$UNAME" in
 Darwin*)
@@ -8,12 +12,12 @@ Darwin*)
 	;;
 *)
 	if [ "$pythonver" == "" ]; then
-		pythonver="2.4"
+		pythonver=$(python --version 2>&1 | cut -f2 -d' ' | cut -f2 -d' ' | cut -f1,2 -d.)
 		PYTHONINCS=/usr/include/python${pythonver}/
 	else
 		PATH=$(echo /home/dave/Python-${pythonver}*):$PATH
 		PYTHONINCS=$(echo /home/dave/Python-${pythonver}*/Include)
-    fi
+    	fi
 	oldargs="-shared"
 	;;
 esac
