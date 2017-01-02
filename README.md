@@ -27,7 +27,47 @@ What follows are the traditional instructions which should work from the build d
 cmake CMakeLists.txt
 make
 
+By default, cmake generates libraries and binaries in the cmake-build-debug dir.
+
 For more detailed instructions see [BUILDING.txt](BUILDING.md)
+
+# Tutorial/Examples
+
+All these examples assume you have setup the environment to find the STK library (using system library dirs or LD_LIBRARY_PATH's etc.)
+and the STK daemon (stkd) is running (found in the lib and daemons directories of your build tree).
+
+## C/C++
+
+Make sure you cd to the examples dir!
+
+### Service Monitoring, State Management
+
+Run './monitored_service -t 2'
+
+    Davids-MacBook-Air:examples dave$ ./monitored_service -t 2
+    data flow 0x7fca85500480 name server data flow for monitored_service[29091] to port 20002 connected (fd 3)
+    data flow 0x7fca85402880 monitoring socket for monitored_service[29090] to port 20001 connected (fd 6)
+    Monitoring channel created
+    Using random service ID: 37089166
+    The new value of x is 2
+    The new value of x is 4
+    The new value of x is 8
+    Monitoring channel destroyed
+    Monitoring channel destroyed
+    basic monitored service hit its threshold of 2
+    
+This shows a dummy application which calculated the value of 'x' which is connected to the STK daemon for monitoring.
+Visiting http://localhost:8080 you will see:
+
+![basic monitored service screenshot](images/basic_monitored_service.png)
+
+This shows the basic service started and is now stopped and the Checkpoint was last at 2 - this was the threshold
+specified with '-t 2' so the service clearly stopped as expected. :-)
+
+### Pub/Sub
+
+### Name Resolution, Named Meta-data Storage
+
 
 # Legal Notices
 D3 (used in stkhttpd)
