@@ -9,4 +9,6 @@ cd $gemdir
 [ -r lib ] || ln -s ../ruby_gem/lib lib
 [ -r stk.gemspec ] || ln -s ../ruby_gem/stk.gemspec stk.gemspec
 gem build stk.gemspec
-
+echo "Now install the gem :"
+echo "cd $PWD"
+echo "sudo gem install *.gem"

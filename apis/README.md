@@ -12,9 +12,13 @@ For the Python API, you will need the python-devel package installed so the pyth
 
 ## Building
 
-Currently, only the python APIs are working:
+Currently, the python and ruby APIs are working:
 
 Run 'make python'
+or
+Run 'make ruby'
+
+When building ruby, don't forget to install the gem that is built (follow provided instructions at the end of the build)!
 
 ## Getting Started
 
@@ -24,7 +28,7 @@ Make sure the core library is installed (or in the LD_LIBRARY_PATH), then:
 	Set the PYTHONPATH to include the site-packages dir
 
 	Ruby:
-	Copy the content of the ruby dir to the ruby site path, eg. /usr/local/lib/ruby/site_ruby/2.0.0/x86_64-linux
+	Locate the gem built (gem*/*.gem) for your version of ruby. Install the gem! gem install stk-*.gem
 
 	Java:
 	Do the same for the libraries in the java dir, then set the classpath to include the stk.jar
