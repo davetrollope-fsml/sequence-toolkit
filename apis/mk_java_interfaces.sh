@@ -3,12 +3,17 @@ case "$(uname)" in
 Darwin*)
 	ldargs="-dynamiclib -Wl,-headerpad_max_install_names,-undefined,dynamic_lookup,-compatibility_version,1.0"
 	ext="dylib"
+        #/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/include and /System/Library/Frameworks/JavaVM.framework//Versions/A/Headers ?
+        java_incflags="-I /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/include"
 	;;
 *)
 	ldargs="-shared"
 	ext="so"
+        incdir=$(ls -1dtr /usr/java/jdk*/include | tail -1)
+        java_incflags="-I $incdir -I $incdir/linux"
 	;;
 esac
+echo Using java headers in $java_incflags
 
 if [ "$BLDROOT" = "" ]; then
 	export BLDROOT=$PWD/..
@@ -74,7 +79,7 @@ echo "%include \"../../include/stk_env.h\"
 
 cd java >/dev/null
 swig -java $i
-gcc -fPIC -c $w -I /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/include -I /System/Library/Frameworks/JavaVM.framework//Versions/A/Headers
+gcc -fPIC -c $w $java_incflags
 gcc ${ldargs} $o -L$BLDROOT/lib -lstk -o lib_$m.$ext
 cd ..
 

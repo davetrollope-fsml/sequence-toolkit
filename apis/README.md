@@ -12,13 +12,15 @@ For the Python API, you will need the python-devel package installed so the pyth
 
 ## Building
 
-Currently, the python and ruby APIs are working:
+Currently, the APIs supported are python, ruby and Java for the Linux platform. To build them all, just run "make" or you can individually make them :
 
-Run 'make python'
-or
-Run 'make ruby'
+	make python
+	make ruby
+	make java
 
-When building ruby, don't forget to install the gem that is built (follow provided instructions at the end of the build)!
+If you build all with "make", they will build concurrently.
+
+After building ruby, you must install the gem in gem*/*.gem - E.g. sudo gem install stk*.gem
 
 ## Getting Started
 
