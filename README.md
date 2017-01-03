@@ -148,6 +148,41 @@ This example sends and receives 100 sequences.:
 
 ### Name Resolution, Named Meta-data Storage
 
+Example of registering an IP address with a name (meta_data_registration) in a name group (test):
+
+    Davids-MacBook-Air:examples dave$ ./simple_name_registration -i tcp:127.0.0.1:5432 -G test meta_data_registration
+    data flow 0xfeb510 auto created data flow[0] to port 20002 connected (fd 3)
+    Name Server connected, fd 3
+    Registering info on name meta_data_registration
+    Received info on name meta_data_registration, IP 0.0.0.0 Port 5432, FT State 0
+    Request expired on name meta_data_registration, 2 callbacks received
+    Received 2 sequences, waiting for 2
+    Name Server disconnected, fd 3
+    ./simple_name_registration: Received 2 name registration callbacks
+    
+    Davids-MacBook-Air:examples dave$ ./simple_name_lookup -G test meta_data_registration
+    data flow 0x94c4b0 auto created data flow[0] to port 20002 connected (fd 3)
+    Name Server connected
+    Requesting info on name meta_data_registration
+    Received info on name meta_data_registration, IP 127.0.0.1 Port 5432 Protocol tcp, FT State active
+    Name meta_data_registration has 7 meta data elements
+    Meta data type 1 sz 23
+    Meta data type 4 sz 4
+    Meta data type 3 sz 5
+    Meta data type 2 sz 16
+    Meta data type 6 sz 4
+    Meta data type 7 sz 4
+    Meta data type 5 sz 8
+    Received 1 sequences, waiting for 2
+    Request expired on name meta_data_registration, 2 callbacks received
+    Received 2 sequences, waiting for 2
+    Name Server disconnected
+    name lookup of 'meta_data_registration' expired
+
+Application defined meta data can be associated with a name too - its not just for IP addresses!
+
+Note the very last line - name lookups have expiration built in and your application is notified when no more responses will be
+received. This simplifies your application logic providing a deterministic end to your lookups. 
 
 # Legal Notices
 D3 (used in stkhttpd)
