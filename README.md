@@ -70,6 +70,9 @@ which stores current and past state about applications.
 ### Pub/Sub
 
 Here is an example of running a subscriber and then a publisher on a named channel in true pub/sub style.
+
+(Scroll output left/right to compare subscribing and publishing in realtime)
+
 <TABLE WIDTH=100%><TR>
 <TH>Subscribe</TH><TH>Publish</TH>
 </TR><TR>
