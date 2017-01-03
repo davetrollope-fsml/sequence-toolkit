@@ -23,9 +23,12 @@ What follows are the traditional instructions which should work from the build d
 
 ## Table of Content
 
-* [Building STK (Quickstart)](#building-stk)
-* [Tutorial/Examples](#tutorial/examples)
-    * [C/C++](#c/c++)
+* [Building STK (Quickstart)](#building-stk-quickstart)
+* [Tutorial/Examples](#tutorialexamples)
+    * [C/C++](#cc)
+        * [Service Monitoring, State Management](#service-monitoring-state-management)
+        * [Pub/Sub](#pubsub)
+        * [Name Resolution, Named Meta-data Storage](#name-resolution-named-meta-data-storage)
 * [Legal Notices](#legal-notices)
 
 
