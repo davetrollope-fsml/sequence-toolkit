@@ -21,6 +21,13 @@ For building API bindings, see the README.md in the api directory - the followin
 
 What follows are the traditional instructions which should work from the build dir of CLion or the root of an in-source build.
 
+## Table of Content
+
+* [Building STK (Quickstart)](#building-stk)
+* [Tutorial/Examples](#tutorial/examples)
+    * [C/C++](#c/c++)
+* [Legal Notices](#legal-notices)
+
 
 # Building STK (Quickstart)
 
