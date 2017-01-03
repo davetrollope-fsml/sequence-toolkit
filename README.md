@@ -64,7 +64,84 @@ Visiting http://localhost:8080 you will see:
 This shows the basic service started and is now stopped and the Checkpoint was last at 2 - this was the threshold
 specified with '-t 2' so the service clearly stopped as expected. :-)
 
+Smartbeats carry the application state and checkpoints to the monitoring web service over a named pub/sub channel
+which stores current and past state about applications.
+
 ### Pub/Sub
+
+Here is an example of running a subscriber and then a publisher on a named channel in true pub/sub style.
+<TABLE WIDTH=100%><TR>
+<TH>Subscribe</TH><TH>Publish</TH>
+</TR><TR>
+<TD VALIGN=TOP><FONT SIZE=-1><pre>
+Davids-MacBook-Air:examples dave$ ./subscribe pubsub_test
+Subscribing to 'pubsub_test'
+data flow 0x7f80c6500380 name server data flow for subscribe[29091] to port 20002 connected (fd 5)
+Received info on name pubsub_test, IP 127.0.0.1 Port 29312 Protocol tcp
+set client socket receive buffer size on port 29312, env 0x7f80c6402780
+data flow 0x7f80c6500510 tcp subscriber data flow[29090] to port 29312 connected (fd 6)
+Adding df 0x7f80c6500510 fd 6 to dispatcher, count 0
+Adding df 0x7f80c6500510 to data connection table, current size 0
+Name pubsub_test has 6 meta data elements
+Meta data type 1 sz 12
+Meta data type 4 sz 4
+Meta data type 2 sz 16
+Meta data type 6 sz 4
+Meta data type 7 sz 4
+Meta data type 5 sz 8
+Waiting to complete request
+Dispatching
+data flow 0x7f80c6500510: Number of elements in received sequence: 1 Sequence type: Data
+Sequence 0x7f80c64028d0 Received 10 bytes of type 309
+Bytes: 64 65 66 61 ... 74 20 de ad
+Received: 1
+data flow 0x7f80c6500510: Number of elements in received sequence: 1 Sequence type: Data
+Sequence 0x7f80c64028d0 Received 10 bytes of type 309
+Bytes: 64 65 66 61 ... 74 20 de ad
+Received: 2
+data flow 0x7f80c6500510: Number of elements in received sequence: 1 Sequence type: Data
+Sequence 0x7f80c64028d0 Received 10 bytes of type 309
+Bytes: 64 65 66 61 ... 74 20 de ad
+Received: 3
+...
+data flow 0x7f80c6500510: Number of elements in received sequence: 1 Sequence type: Data
+Sequence 0x7f80c65004d0 Received 10 bytes of type 309
+Bytes: 64 65 66 61 ... 74 20 de ad
+Received: 100
+channel 2 deleted, fd 6
+^CReceived SIGTERM/SIGINT, exiting...
+Received: 100
+./subscribe terminated
+</pre></FONT></TD>
+<TD VALIGN=TOP>
+<FONT SIZE=-1><pre>
+<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+Davids-MacBook-Air:examples dave$ ./publish pubsub_test
+Publishing to 'pubsub_test'
+Failed to set receive socket buffer size 16000000 on port 29312, env 0x7fcd09c02780 err 55 df 6
+Received info on name pubsub_test, IP 127.0.0.1 Port 29312 Protocol tcp
+Name pubsub_test has 2 meta data elements
+Meta data type 5 sz 8
+Meta data type 1 sz 12
+Data on well known port
+Adding df 0x7fcd09e001c0 fd 7 to data connection table, current size 0
+Waiting to complete request
+Request expired on name pubsub_test, 2 callbacks received
+Waiting for connections
+Something connected!
+Sending 100 sequences
+Send Interval (sent - start): 0.000769 secs (avg 7 usecs)
+Total Interval (end - start): 0.000769 secs
+Letting data flows drain
+./publish ended: Sent 100 sequences
+</pre></FONT></TD>
+</TR></TABLE>
+
+STK uses the term "Sequences" instead of "messages" for various reasons, 
+but for simple cases they can be considered the same.
+
+This example sends and receives 100 sequences.:
+
 
 ### Name Resolution, Named Meta-data Storage
 
