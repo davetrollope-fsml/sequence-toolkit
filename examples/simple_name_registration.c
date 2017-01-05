@@ -247,8 +247,11 @@ int main(int argc,char *argv[])
 		STK_ASSERT(meta_data_seq!=NULL,"Failed to allocate meta data sequence");
 
 		for(int i = 0; i < opts.meta_data_count; i++) {
-			rc = stk_copy_to_sequence(meta_data_seq,opts.meta_data_values[i],strlen(opts.meta_data_values[i]) + 1, opts.meta_data_id[i]);
-			STK_ASSERT(rc==STK_SUCCESS,"copy meta data %d",opts.meta_data_id[i]);
+			if(opts.meta_data_values[i]) {
+				rc = stk_copy_to_sequence(meta_data_seq, opts.meta_data_values[i], strlen(opts.meta_data_values[i]) + 1,
+										  opts.meta_data_id[i]);
+				STK_ASSERT(rc == STK_SUCCESS, "copy meta data %d", opts.meta_data_id[i]);
+			}
 		}
 
 		/* Overwrite the NULL entry with the meta data sequence option */
