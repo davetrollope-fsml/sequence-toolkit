@@ -11,7 +11,7 @@
 
 struct stk_name_store_stct {
 	char group_name[STK_MAX_GROUP_NAME_LEN];
-	List *name_list[27]; /* Array of lists based on first char of name */
+	List *name_list[STK_MAX_NAME_LIST_ENTRIES]; /* Array of lists based on first char of name */
 };
 static List *store_groups;
 static stk_name_store_t *default_store;
@@ -110,7 +110,7 @@ void stk_name_store_cleanup()
 static unsigned char stk_determine_bucket(char *name)
 {
 	unsigned char bucket = (unsigned char) (toupper(name[0]) - 'A');
-	if(bucket > 26) bucket = 27;
+	if(bucket > STK_MAX_NAME_LIST_ENTRIES-1) bucket = STK_MAX_NAME_LIST_ENTRIES-1;
 	return bucket;
 }
 
@@ -252,8 +252,8 @@ Node *stk_first_name_in_store(stk_name_store_t *store)
 
 	if(!store) store = default_store;
 
-	while(bucket < 27 && IsPListEmpty(store->name_list[bucket])) bucket++;
-	return bucket > 26 ? NULL : FirstNode(store->name_list[bucket]);
+	while(bucket < STK_MAX_NAME_LIST_ENTRIES && IsPListEmpty(store->name_list[bucket])) bucket++;
+	return bucket > (STK_MAX_NAME_LIST_ENTRIES-1) ? NULL : FirstNode(store->name_list[bucket]);
 }
 
 Node *stk_next_name_in_store(stk_name_store_t *store,Node *n)

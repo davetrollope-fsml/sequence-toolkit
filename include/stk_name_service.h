@@ -23,6 +23,8 @@ typedef struct stk_name_service_stct stk_name_service_t;
 #define STK_MAX_NAME_LEN 96          /*!< The max len for a name */
 #define STK_MAX_GROUP_NAME_LEN 48    /*!< The max len for a group name */
 #define STK_NAME_MAX_PROTOCOL_LEN 16 /*!< The max len for a protocol string */
+#define STK_MAX_NAME_LIST_ENTRIES 27 /*!< The number of buckets names are hashed in to */
+
 
 /**
  * \typedef stk_name_ip_t

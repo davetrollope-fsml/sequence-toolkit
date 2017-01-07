@@ -9,7 +9,7 @@
 
 struct stk_subscription_store_stct {
 	char group_name[STK_MAX_GROUP_NAME_LEN];
-	List *subscription_list[27]; /* Array of lists based on first char of name */
+	List *subscription_list[STK_MAX_NAME_LIST_ENTRIES]; /* Array of lists based on first char of name */
 };
 static List *store_groups;
 static stk_subscription_store_t *default_store;
@@ -98,7 +98,7 @@ void stk_subscription_store_cleanup()
 static unsigned char stk_determine_bucket(char *name)
 {
 	unsigned char bucket = (unsigned char) (toupper(name[0]) - 'A');
-	if(bucket > 26) bucket = 27;
+	if(bucket > STK_MAX_NAME_LIST_ENTRIES) bucket = STK_MAX_NAME_LIST_ENTRIES - 1;
 	return bucket;
 }
 
