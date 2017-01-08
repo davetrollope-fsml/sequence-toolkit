@@ -23,19 +23,18 @@ int stk_url_cat(char *file,int content_length)
 {
 	FILE *f = fopen(file,"r");
 	char localbuf[2048];
-	int total_read = 0;
 
 	if(!f) return content_length;
 
 	while(!feof(f)) {
 		int read = fread(&localbuf,1,sizeof(localbuf),f);
 		memcpy(&content[content_length],localbuf,read);
-		total_read += read; 
+		content_length += read;
 	}
 
 	fclose(f);
 
-	return content_length + total_read;
+	return content_length;
 }
 
 #define STK_ADD_CONTENT(_buf,_len,...) \
