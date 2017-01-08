@@ -68,8 +68,8 @@ function mk_service_table(arr,size)
 	}
 
 	html = "\n";
-	html += "<TABLE WIDTH=100% border=1 bgcolor=#bbbbbb>";
-	html += "<TR ALIGN=CENTER>\n";
+	html += "<TABLE CLASS='table table-hover table-condensed' WIDTH=100% border=1 bgcolor=#bbbbbb>";
+	html += "<THEAD><TR ALIGN=CENTER>\n";
 	html += "<TD " + (selected_column == 'name' ? "style=\"font-weight: bold;\" " : "") + "onClick=\"sortColumn('name'," + arrname + ")\">Service&nbsp;Name<BR><FONT SIZE=-1>[Group]</FONT></TD>\n";
 	html += "<TD " + (selected_column == 'id' ? "style=\"font-weight: bold;\" " : "") + "onClick=\"sortColumn('id'," + arrname + ")\">ID</TD>\n"
 	html += "<TD " + (selected_column == 'type' ? "style=\"font-weight: bold;\" " : "") + "onClick=\"sortColumn('type'," + arrname + ")\">Type</TD>\n"
@@ -77,7 +77,7 @@ function mk_service_table(arr,size)
 	html += "<TD " + (selected_column == 'state' ? "style=\"font-weight: bold;\" " : "") + "onClick=\"sortColumn('state'," + arrname + ")\">State</TD>\n"
 	html += "<TD " + (selected_column == 'checkpoint' ? "style=\"font-weight: bold;\" " : "") + "onClick=\"sortColumn('checkpoint'," + arrname + ")\">Checkpoint</TD>\n"
 	html += "<TD " + (selected_column == 'localtime' ? "style=\"font-weight: bold;\" " : "") + "onClick=\"sortColumn('localtime'," + arrname + ")\">Activity&nbsp;Time (Service)</TD>\n"
-	html += "<TD " + (selected_column == 'servertime' ? "style=\"font-weight: bold;\" " : "") + "onClick=\"sortColumn('servertime'," + arrname + ")\">Activity&nbsp;Time (Web Server)</TD></TR>\n";
+	html += "<TD " + (selected_column == 'servertime' ? "style=\"font-weight: bold;\" " : "") + "onClick=\"sortColumn('servertime'," + arrname + ")\">Activity&nbsp;Time (Web Server)</TD></TR></THEAD><TBODY>\n";
 	while(n < size)
 	{
 		var svcdate = new Date((arr[n].tv_sec*1000)+arr[n].tv_msec);
@@ -102,7 +102,7 @@ function mk_service_table(arr,size)
 			"</TD><TD>" + arr[n].checkpoint + "</TD><TD>" + svcdate.toLocaleString() + "</TD><TD>" + rcvdate.toLocaleString() + "</TD></TR>\n";
 		n++;
 	}
-	html += "</TABLE>\n";
+	html += "</TBODY></TABLE>\n";
 	return html;
 }
 
